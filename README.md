@@ -56,34 +56,36 @@ cd harmony-mcp-tools
     "arkts-api-validator": {
       "command": "python",
       "args": ["-m", "arkts_api_validator"],
-      "cwd": "D:\\mcp-servers\\arkts-api-validator",
+      "cwd": "{PROJECT_PATH}/arkts-api-validator",
       "env": {
-        "PYTHONPATH": "D:\\mcp-servers\\arkts-api-validator\\src",
-        "HARMONYOS_SDK_PATH": "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default"
+        "PYTHONPATH": "{PROJECT_PATH}/arkts-api-validator/src",
+        "HARMONYOS_SDK_PATH": "{DEV_ECO_SDK_PATH}"
       }
     },
     "ark_disasm": {
       "command": "python",
-      "args": ["D:\\mcp-servers\\ark-disasm-mcp\\ark_disasm_mcp.py"]
+      "args": ["{PROJECT_PATH}/ark-disasm-mcp/ark_disasm_mcp.py"]
     },
     "es2abc": {
       "command": "python",
-      "args": ["D:\\mcp-servers\\es2abc-mcp\\es2abc_mcp.py"]
+      "args": ["{PROJECT_PATH}/es2abc-mcp/es2abc_mcp.py"]
     },
     "harmony-build": {
       "command": "python",
-      "args": ["D:\\mcp-servers\\harmony-build-mcp\\harmony_build_mcp.py"]
+      "args": ["{PROJECT_PATH}/harmony-build-mcp/harmony_build_mcp.py"]
     },
     "harmony-tasklist": {
       "command": "python",
       "args": ["-m", "src.main"],
-      "cwd": "D:\\mcp-servers\\harmony-tasklist-manager"
+      "cwd": "{PROJECT_PATH}/harmony-tasklist-manager"
     }
   }
 }
 ```
 
-请将 `D:\\mcp-servers` 替换为你的实际路径。
+> **配置说明**:
+> - `{PROJECT_PATH}`: 替换为本仓库的实际路径
+> - `{DEV_ECO_SDK_PATH}`: 替换为 DevEco Studio SDK 路径（通常为 `C:\Program Files\Huawei\DevEco Studio\sdk\default`）
 
 ### 4. 重启 Claude Desktop
 

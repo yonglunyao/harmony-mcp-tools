@@ -140,11 +140,13 @@ get_field_metadata()
     "harmony-tasklist": {
       "command": "python",
       "args": ["-m", "src.main"],
-      "cwd": "D:\\mcp-servers\\harmony-tasklist-manager"
+      "cwd": "{PROJECT_PATH}/harmony-tasklist-manager"
     }
   }
 }
 ```
+
+> 请将 `{PROJECT_PATH}` 替换为你的实际项目路径。
 
 ## 项目结构
 

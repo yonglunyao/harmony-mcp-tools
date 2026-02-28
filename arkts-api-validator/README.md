@@ -26,7 +26,7 @@
 ### 1. 安装
 
 ```bash
-cd D:\mcp-servers\arkts-api-validator
+cd {PROJECT_PATH}/arkts-api-validator
 pip install -e .
 ```
 
@@ -46,10 +46,10 @@ pip install -e .
     "arkts-api-validator": {
       "command": "python",
       "args": ["-m", "arkts_api_validator"],
-      "cwd": "D:\\mcp-servers\\arkts-api-validator",
+      "cwd": "{PROJECT_PATH}/arkts-api-validator",
       "env": {
-        "PYTHONPATH": "D:\\mcp-servers\\arkts-api-validator\\src",
-        "HARMONYOS_SDK_PATH": "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default"
+        "PYTHONPATH": "{PROJECT_PATH}/arkts-api-validator/src",
+        "HARMONYOS_SDK_PATH": "{DEV_ECO_SDK_PATH}"
       }
     }
   }
@@ -57,7 +57,8 @@ pip install -e .
 ```
 
 > **重要**:
-> - 请将 `D:\\mcp-servers\\arkts-api-validator` 替换为你的实际项目路径
+> - 请将 `{PROJECT_PATH}` 替换为你的实际项目路径
+> - 请将 `{DEV_ECO_SDK_PATH}` 替换为你的 DevEco Studio SDK 路径（通常为 `C:\Program Files\Huawei\DevEco Studio\sdk\default`）
 > - `PYTHONPATH` 必须指向 `src` 目录
 > - 完整配置示例请参考 `examples/claude_desktop_config.json`
 

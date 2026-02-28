@@ -410,11 +410,13 @@ async with stdio_client(server_params) as (read, write):
     "harmony-tasklist": {
       "command": "python",
       "args": ["-m", "src.main"],
-      "cwd": "D:\\mcp-servers\\harmony-tasklist-manager"
+      "cwd": "{PROJECT_PATH}/harmony-tasklist-manager"
     }
   }
 }
 ```
+
+> 请将 `{PROJECT_PATH}` 替换为你的实际项目路径。
 
 ## 11. 数据类型
 

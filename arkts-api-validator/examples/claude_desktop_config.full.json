@@ -1,33 +1,16 @@
 /**
- * Claude Code MCP 服务器配置示例
+ * 备用配置：直接运行入口文件
  *
- * 配置文件位置:
- * - Windows: %APPDATA%\Claude\claude_desktop_config.json
- * - macOS: ~/Library/Application Support/Claude/claude_desktop_config.json
- * - Linux: ~/.config/Claude/claude_desktop_config.json
- *
- * 配置说明:
- * 1. "command": 启动服务器的命令
- * 2. "args": 命令参数列表
- * 3. "cwd": 工作目录（可选，但建议设置）
- * 4. "env": 环境变量（可选）
+ * 如果使用模块方式 (-m) 遇到问题，可以尝试这种方式
  */
 {
   "mcpServers": {
-    // ArkTS API Validator - 用于校验 HarmonyOS ArkTS API
     "arkts-api-validator": {
       "command": "python",
-      "args": ["-m", "arkts_api_validator"],
-      "cwd": "D:\\mcp-servers\\arkts-api-validator",
+      "args": ["{PROJECT_PATH}/arkts-api-validator/src/arkts_api_validator/__main__.py"],
       "env": {
-        // HarmonyOS SDK 路径（可选，默认使用内置路径）
-        "HARMONYOS_SDK_PATH": "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default"
+        "HARMONYOS_SDK_PATH": "{DEV_ECO_SDK_PATH}"
       }
     }
-    // 可以添加更多 MCP 服务器...
-    // "filesystem": {
-    //   "command": "npx",
-    //   "args": ["-y", "@modelcontextprotocol/server-filesystem", "D:\\Projects"]
-    // }
   }
 }

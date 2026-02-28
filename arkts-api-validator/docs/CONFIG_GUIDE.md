@@ -35,10 +35,10 @@
     "arkts-api-validator": {
       "command": "python",
       "args": ["-m", "arkts_api_validator"],
-      "cwd": "D:\\mcp-servers\\arkts-api-validator",
+      "cwd": "{PROJECT_PATH}/arkts-api-validator",
       "env": {
-        "PYTHONPATH": "D:\\mcp-servers\\arkts-api-validator\\src",
-        "HARMONYOS_SDK_PATH": "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default"
+        "PYTHONPATH": "{PROJECT_PATH}/arkts-api-validator/src",
+        "HARMONYOS_SDK_PATH": "{DEV_ECO_SDK_PATH}"
       }
     }
   }
@@ -48,6 +48,8 @@
 **缺点**:
 - ❌ 硬编码了绝对路径
 - ❌ 移动项目需要更新配置
+
+> **注意**: 请将 `{PROJECT_PATH}` 替换为你的实际项目路径，将 `{DEV_ECO_SDK_PATH}` 替换为 DevEco Studio SDK 路径。
 
 ---
 
