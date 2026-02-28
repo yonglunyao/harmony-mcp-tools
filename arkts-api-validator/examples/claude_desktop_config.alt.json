@@ -1,0 +1,16 @@
+/**
+ * 备用配置：直接运行入口文件
+ *
+ * 如果使用模块方式 (-m) 遇到问题，可以尝试这种方式
+ */
+{
+  "mcpServers": {
+    "arkts-api-validator": {
+      "command": "python",
+      "args": ["D:\\mcp-servers\\arkts-api-validator\\src\\arkts_api_validator\\__main__.py"],
+      "env": {
+        "HARMONYOS_SDK_PATH": "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default"
+      }
+    }
+  }
+}

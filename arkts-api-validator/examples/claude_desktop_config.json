@@ -1,0 +1,26 @@
+/**
+ * Claude Code MCP 服务器配置
+ *
+ * 配置文件位置:
+ * - Windows: %APPDATA%\Claude\claude_desktop_config.json
+ * - macOS: ~/Library/Application Support/Claude/claude_desktop_config.json
+ * - Linux: ~/.config/Claude/claude_desktop_config.json
+ *
+ * 使用前请先安装:
+ *   pip install -e .
+ *
+ * 或使用绝对路径方式（不推荐）:
+ *   "cwd": "项目路径",
+ *   "env": { "PYTHONPATH": "项目路径\\src" }
+ */
+{
+  "mcpServers": {
+    "arkts-api-validator": {
+      "command": "python",
+      "args": ["-m", "arkts_api_validator"],
+      "env": {
+        "HARMONYOS_SDK_PATH": "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default"
+      }
+    }
+  }
+}

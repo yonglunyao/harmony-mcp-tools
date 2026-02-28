@@ -1,0 +1,5 @@
+UserA	AppA	com.example.app1	1.1.31	CompanyA	手机	其它	TaskID1	Hash1	12/31	1/4	BLACK	EnforceGrant	2025/12/31: 启动时频繁索权oaid取证材料：https://onebox.example.com/#eSpaceGroupFile/1/106638/9720964		7		75.48	HDA	机检恶意/工信部通报/读剪贴板/ACL/黑历史/后台录音/后台任务/后台音频/屏幕事件/WiFi扫描/Flutter/二次索权	1	2025/12/31	黑	23	174.17
+UserB	AppB	com.example.app2	96.0.0.119	CompanyB	手机/平板	其它	TaskID2	Hash2	12/31	1/4	WHITE				55.07	HDA	ACL/ServiceExt/FormExt/无需分析	32	2025/12/31	白	31	27.58
+UserA	AppC	com.example.app3	13.000.1	CompanyC	手机/平板/2in1	5000	TaskID3	Hash3	1/2	1/4	BLACK	HackArk	2026/01/03: 方舟字节码文件不符合规范，由非官方构建工具链编译或者篡改生成，存在提权和系统破坏等恶意攻击风险。		5		42.76	HDA	机检恶意/后台定位/后台录音	0	2026/1/2	黑	91	217.64
+UserA	AppD	com.example.app4	6.0.1.6	CompanyD	手机/平板/2in1	其它	TaskID4	Hash4	12/31	1/4	待定	无风险	企业应用		5		41.11	HDA	EnterpriseAdminExt/ACL/PushExt/从未分析/后台定位/异常任务	2		4	11.26
+UserC	AppD	com.example.app4	6.0.1.5	CompanyD	手机/平板/2in1	其它	TaskID5	Hash5	12/31	1/4	待定	无风险			5		41.11	HDA	EnterpriseAdminExt/ACL/PushExt/从未分析/后台定位/异常任务	2		4	11.26

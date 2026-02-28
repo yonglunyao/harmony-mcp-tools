@@ -1,0 +1,4 @@
+Column1	Column2	Column3	Column4	Column5	Column6	Column7	Column8	Column9	Column10	Column11	Column12	Column13	Column14	Column15	Column16	Column17	Column18	Column19	Column20	Column21	Column22	Column23	Column24	Column25
+responsible_person	app_name	package_name	version_code	developer	supported_devices	popularity_level	task_id	sample_hash	submission_date	analysis_date	auto_detection_result	manual_analysis_conclusion	issue_description	evidence_link	analysis_duration_minutes	risk_level	auto_score	reverse_engineering_tool	risk_tags	acl_permission_count	last_analysis_time	last_analysis_conclusion	total_analysis_count	size_mb
+负责分析这个应用的人	应用名	包名	包名	开发者	支持的设备类型	应用的流行度，比如是TOP应用	任务ID	样本hash	送检日期	分析日期	机检特征侦测结论	人工分析结论	人工分析的问题描述	如果应用有问题，存放的取证材料链接	人工分析用时	人工评估的风险等级	自动评分系统给出的初步评分	逆向服务，将应用逆向成源码	风险标签	申请ACL特殊权限的个数		上次结论	累计分析次数	Size(MB)
+责任人	应用名	包名	包名	开发者	设备	级别	任务ID	hash	送检日期	分析日期	侦测	结论	问题描述	取证材料	用时	风险	评分	HDA	风险标签	ACL	上次分析时间	上次结论	累计分析次数	Size(MB)

@@ -1,0 +1,16 @@
+# Data files configuration
+data_files:
+  title_file: "data/title.txt"
+  data_file: "data/tasklist.txt"
+
+# Server configuration
+server:
+  name: "harmony-tasklist-manager"
+  version: "1.0.0"
+  log_level: "INFO"
+
+# Query configuration
+query:
+  default_limit: 100
+  max_limit: 1000
+  cache_ttl_minutes: 5

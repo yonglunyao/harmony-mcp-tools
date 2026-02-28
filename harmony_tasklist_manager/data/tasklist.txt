@@ -1,0 +1,20 @@
+UserA	AppA	com.example.app1	1.1.31	CompanyA	手机	其它	TaskID1	Hash1	12/31	1/4	BLACK	EnforceGrant	2025/12/31: 启动时频繁索权oaid取证材料：https://onebox.example.com/#eSpaceGroupFile/1/106638/9720964		7		75.48	HDA	机检恶意/工信部通报/读剪贴板/ACL/黑历史/后台录音/后台任务/后台音频/屏幕事件/WiFi扫描/Flutter/二次索权	1	2025/12/31	黑	23	174.17
+UserB	AppB	com.example.app2	96.0.0.119	CompanyB	手机/平板	其它	TaskID2	Hash2	12/31	1/4	WHITE				55.07	HDA	ACL/ServiceExt/FormExt/无需分析	32	2025/12/31	白	31	27.58
+UserA	AppC	com.example.app3	13.000.1	CompanyC	手机/平板/2in1	5000	TaskID3	Hash3	1/2	1/4	BLACK	HackArk	2026/01/03: 方舟字节码文件不符合规范，由非官方构建工具链编译或者篡改生成，存在提权和系统破坏等恶意攻击风险。		5		42.76	HDA	机检恶意/后台定位/后台录音	0	2026/1/2	黑	91	217.64
+UserA	AppD	com.example.app4	6.0.1.6	CompanyD	手机/平板/2in1	其它	TaskID4	Hash4	12/31	1/4	待定	无风险	企业应用		5		41.11	HDA	EnterpriseAdminExt/ACL/PushExt/从未分析/后台定位/异常任务	2		4	11.26
+UserC	AppD	com.example.app4	6.0.1.5	CompanyD	手机/平板/2in1	其它	TaskID5	Hash5	12/31	1/4	待定	无风险			5		41.11	HDA	EnterpriseAdminExt/ACL/PushExt/从未分析/后台定位/异常任务	2		4	11.26
+UserB	电商App	com.example.shop	2.3.0	ECommerceInc	手机	TOP100	TaskID6	Hash6	1/5	1/6	BLACK	强制下架	恶意扣费、隐私窃取		3		68.2	HDA	机检恶意/扣费/隐私窃取/后台录音/读取短信	3	2025/12/31	黑	15	45.2
+UserC	社交App	com.example.social	5.1.2	SocialCo	手机/平板	其它	TaskID7	Hash7	1/6	1/7	WHITE				12	无		0	2025/12/31	白	8	32.1
+UserA	游戏App	com.example.game	1.0.0	GameDev	手机	5000	TaskID8	Hash8	1/7	1/8	GRAY	需复核	存在异常网络行为		8		55.3	HDA	异常网络/流量异常	1	2025/12/31	灰	42	156.8
+UserB	工具App	com.example.tools	3.2.1	ToolsInc	手机	其它	TaskID9	Hash9	1/8	1/9	BLACK	HackTool	注入框架、Hook系统API		6		72.1	HDA	机检恶意/Hook/注入/框架	4	2025/12/31	黑	28	89.3
+UserC	金融App	com.example.finance	4.5.6	FinTech	手机/平板	TOP100	TaskID10	Hash10	1/9	1/10	WHITE				18	无		0	2025/12/31	白	12	67.4
+UserA	视频App	com.example.video	7.8.9	VideoCo	手机	TOP500	TaskID11	Hash11	1/10	1/11	GRAY	观察中	频繁访问剪贴板		2		48.5	HDA	剪贴板/隐私	0	2025/12/31	灰	7	102.5
+UserB	新闻App	com.example.news	2.1.0	NewsCorp	手机	其它	TaskID12	Hash12	1/11	1/12	WHITE				25	无		0	2025/12/31	白	19	28.9
+UserC	音乐App	com.example.music	6.4.3	MusicInc	手机/平板	其它	TaskID13	Hash13	1/12	1/13	BLACK	流氓行为	后台自动下载、消耗流量		4		65.7	HDA	机检恶意/后台下载/流量消耗	2	2025/12/31	黑	33	54.2
+UserA	地图App	com.example.map	3.9.1	MapCo	手机	TOP1000	TaskID14	Hash14	1/13	1/14	WHITE				30	无		0	2025/12/31	白	21	78.6
+UserB	相机App	com.example.camera	1.5.2	CameraInc	手机	5000	TaskID15	Hash15	1/14	1/15	GRAY	权限过高	索要不必要的权限		1		52.3	HDA	索权/权限异常	0	2025/12/31	灰	11	43.7
+UserC	文件管理	com.example.filemgr	2.8.7	FileTools	手机/平板	其它	TaskID16	Hash16	1/15	1/16	BLACK	数据窃取	非法访问用户文件		9		78.9	HDA	机检恶意/文件访问/数据窃取	5	2025/12/31	黑	37	23.1
+UserA	浏览器	com.example.browser	9.0.1	BrowserInc	手机	TOP500	TaskID17	Hash17	1/16	1/17	WHITE				15	无		0	2025/12/31	白	13	95.4
+UserB	天气App	com.example.weather	4.2.0	WeatherCo	手机	其它	TaskID18	Hash18	1/17	1/18	WHITE				8	无		0	2025/12/31	白	6	12.8
+UserC	支付App	com.example.pay	5.6.7	PaymentCo	手机/平板	TOP100	TaskID19	Hash19	1/18	1/19	GRAY	风险评估中	需进一步人工审核		3		59.4	HDA	风险待评估	0	2025/12/31	灰	16	58.9
+UserA	输入法	com.example.ime	3.1.5	IMEInc	手机	其它	TaskID20	Hash20	1/19	1/20	BLACK	键盘记录	记录用户输入内容		10		82.6	HDA	机检恶意/键盘记录/隐私窃取	6	2025/12/31	黑	44	15.3

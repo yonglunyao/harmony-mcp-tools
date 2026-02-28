@@ -1,0 +1,21 @@
+/**
+ * Claude Code MCP 服务器配置 - pip 安装方式（推荐）
+ *
+ * 这是安装 arkts-api-validator Python 包后的配置方式
+ * 不需要硬编码路径，更加灵活
+ *
+ * 安装步骤:
+ * 1. 在项目目录运行: pip install -e .
+ * 2. 使用下面的配置
+ */
+{
+  "mcpServers": {
+    "arkts-api-validator": {
+      "command": "python",
+      "args": ["-m", "arkts_api_validator"],
+      "env": {
+        "HARMONYOS_SDK_PATH": "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default"
+      }
+    }
+  }
+}

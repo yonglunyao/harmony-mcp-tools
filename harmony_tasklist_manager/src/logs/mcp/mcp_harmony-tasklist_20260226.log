@@ -1,0 +1,1290 @@
+2026-02-26 11:14:49.161 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.166 20312/ 2804 E mcp/harmony-tasklist: Error in search_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 262, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.170 20312/ 2804 E mcp/harmony-tasklist: Error in search_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 262, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.174 20312/ 2804 E mcp/harmony-tasklist: Error in search_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 262, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.177 20312/ 2804 E mcp/harmony-tasklist: Error in search_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 262, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.181 20312/ 2804 E mcp/harmony-tasklist: Error in filter_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 316, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.185 20312/ 2804 E mcp/harmony-tasklist: Error in filter_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 316, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.188 20312/ 2804 E mcp/harmony-tasklist: Error in filter_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 316, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.192 20312/ 2804 E mcp/harmony-tasklist: Error in filter_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 316, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.194 20312/ 2804 E mcp/harmony-tasklist: Error in get_statistics | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 328, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.198 20312/ 2804 E mcp/harmony-tasklist: Error in get_statistics | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 328, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.200 20312/ 2804 E mcp/harmony-tasklist: Error in get_statistics | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 328, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.203 20312/ 2804 E mcp/harmony-tasklist: Error in get_statistics | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 328, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.206 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.208 20312/ 2804 E mcp/harmony-tasklist: Error in get_task_by_id | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 276, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.211 20312/ 2804 E mcp/harmony-tasklist: Error in get_field_metadata | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 285, in call_tool
+    fields = data_manager.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.214 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.217 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.220 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.224 20312/ 2804 E mcp/harmony-tasklist: Error in search_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 262, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.228 20312/ 2804 E mcp/harmony-tasklist: Error in search_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 262, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.231 20312/ 2804 E mcp/harmony-tasklist: Error in reload_data | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 355, in call_tool
+    tasks = data_manager.get_tasks(force_reload=True)
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.234 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.236 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.239 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.241 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.244 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.247 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.250 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.253 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.255 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.258 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.261 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.264 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.266 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.269 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.271 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.274 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.276 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.279 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.282 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.285 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.288 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.291 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.293 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.296 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.298 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.301 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.304 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.307 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.310 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.313 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.317 20312/ 2804 E mcp/harmony-tasklist: Error in search_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 262, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.319 20312/ 2804 E mcp/harmony-tasklist: Error in get_field_metadata | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 285, in call_tool
+    fields = data_manager.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.322 20312/ 2804 E mcp/harmony-tasklist: Error in filter_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 316, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.324 20312/ 2804 E mcp/harmony-tasklist: Error in get_field_metadata | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 285, in call_tool
+    fields = data_manager.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.327 20312/ 2804 E mcp/harmony-tasklist: Error in filter_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 316, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.329 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.331 20312/ 2804 E mcp/harmony-tasklist: Error in get_field_metadata | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 285, in call_tool
+    fields = data_manager.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.334 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.336 20312/ 2804 E mcp/harmony-tasklist: Error in get_statistics | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 328, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.339 20312/ 2804 E mcp/harmony-tasklist: Error in filter_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 316, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.342 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.345 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.348 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.350 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.353 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.356 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.358 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.361 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.363 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.365 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.368 20312/ 2804 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.372 20312/ 2804 E mcp/harmony-tasklist: Error in search_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 262, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.375 20312/ 2804 E mcp/harmony-tasklist: Error in search_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 262, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.379 20312/ 2804 E mcp/harmony-tasklist: Error in search_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 262, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.383 20312/ 2804 E mcp/harmony-tasklist: Error in search_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 262, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.386 20312/ 2804 E mcp/harmony-tasklist: Error in search_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 262, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.390 20312/ 2804 E mcp/harmony-tasklist: Error in search_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 262, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.394 20312/ 2804 E mcp/harmony-tasklist: Error in search_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 262, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.397 20312/ 2804 E mcp/harmony-tasklist: Error in search_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 262, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.401 20312/ 2804 E mcp/harmony-tasklist: Error in search_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 262, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.405 20312/ 2804 E mcp/harmony-tasklist: Error in search_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 262, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.408 20312/ 2804 E mcp/harmony-tasklist: Error in search_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 262, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.412 20312/ 2804 E mcp/harmony-tasklist: Error in filter_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 316, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.414 20312/ 2804 E mcp/harmony-tasklist: Error in filter_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 316, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.418 20312/ 2804 E mcp/harmony-tasklist: Error in filter_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 316, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.420 20312/ 2804 E mcp/harmony-tasklist: Error in filter_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 316, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.423 20312/ 2804 E mcp/harmony-tasklist: Error in filter_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 316, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.426 20312/ 2804 E mcp/harmony-tasklist: Error in filter_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 316, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.429 20312/ 2804 E mcp/harmony-tasklist: Error in filter_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 316, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.433 20312/ 2804 E mcp/harmony-tasklist: Error in filter_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 316, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.436 20312/ 2804 E mcp/harmony-tasklist: Error in filter_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 316, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.439 20312/ 2804 E mcp/harmony-tasklist: Error in filter_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 316, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.442 20312/ 2804 E mcp/harmony-tasklist: Error in filter_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 316, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.444 20312/ 2804 E mcp/harmony-tasklist: Error in get_statistics | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 328, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.447 20312/ 2804 E mcp/harmony-tasklist: Error in get_statistics | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 328, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.449 20312/ 2804 E mcp/harmony-tasklist: Error in get_statistics | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 328, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.452 20312/ 2804 E mcp/harmony-tasklist: Error in get_statistics | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 328, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.455 20312/ 2804 E mcp/harmony-tasklist: Error in get_statistics | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 328, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.457 20312/ 2804 E mcp/harmony-tasklist: Error in get_statistics | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 328, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.460 20312/ 2804 E mcp/harmony-tasklist: Error in get_statistics | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 328, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.462 20312/ 2804 E mcp/harmony-tasklist: Error in get_statistics | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 328, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.465 20312/ 2804 E mcp/harmony-tasklist: Error in get_statistics | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 328, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.467 20312/ 2804 E mcp/harmony-tasklist: Error in get_statistics | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 328, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.470 20312/ 2804 E mcp/harmony-tasklist: Error in get_statistics | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 328, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.472 20312/ 2804 E mcp/harmony-tasklist: Error in get_task_by_id | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 276, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.475 20312/ 2804 E mcp/harmony-tasklist: Error in get_task_by_id | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 276, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.477 20312/ 2804 E mcp/harmony-tasklist: Error in get_task_by_id | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 276, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.480 20312/ 2804 E mcp/harmony-tasklist: Error in get_task_by_id | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 276, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.483 20312/ 2804 E mcp/harmony-tasklist: Error in get_task_by_id | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 276, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.485 20312/ 2804 E mcp/harmony-tasklist: Error in get_task_by_id | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 276, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.488 20312/ 2804 E mcp/harmony-tasklist: Error in get_task_by_id | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 276, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.490 20312/ 2804 E mcp/harmony-tasklist: Error in get_task_by_id | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 276, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.493 20312/ 2804 E mcp/harmony-tasklist: Error in get_task_by_id | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 276, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.495 20312/ 2804 E mcp/harmony-tasklist: Error in get_task_by_id | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 276, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:49.498 20312/ 2804 E mcp/harmony-tasklist: Error in get_task_by_id | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 276, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
+2026-02-26 11:14:56.927 10276/20164 E mcp/harmony-tasklist: Error in get_all_tasks | Traceback (most recent call last):
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\main.py", line 226, in call_tool
+    tasks = data_manager.get_tasks()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 45, in get_tasks
+    fields = self.get_fields()
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\search.py", line 29, in get_fields
+    self._fields_cache = parse_title_file(self.title_file_path)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\harmony_malware_analyse_agent\mcp_servers\harmony_tasklist_manager\src\parsers.py", line 62, in parse_title_file
+    raise DataFileError(message)
+src.models.DataFileError: File not found: data/title.txt
