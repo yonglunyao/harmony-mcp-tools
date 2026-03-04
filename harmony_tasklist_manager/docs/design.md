@@ -400,9 +400,60 @@ async with stdio_client(server_params) as (read, write):
         print(result)
 ```
 
-### Claude Desktop 配置
+## 10. 接入指南
 
-在 `claude_desktop_config.json` 中添加：
+### 10.1 Claude Code 接入
+
+编辑 `~/.claude.json`（用户目录下的 Claude Code 配置文件）：
+
+```json
+{
+  "mcpServers": {
+    "harmony-tasklist-manager": {
+      "command": "python",
+      "args": ["-m", "src.main"],
+      "cwd": "D:/mcp-servers/harmony_tasklist_manager",
+      "env": {
+        "PYTHONPATH": "D:/mcp-servers/harmony_tasklist_manager"
+      }
+    }
+  }
+}
+```
+
+> **注意**: 请将路径替换为你的实际项目路径。
+
+### 10.2 OpenCode 接入
+
+编辑 `~/.config/opencode/opencode.json`：
+
+```json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "harmony-tasklist-manager": {
+      "type": "local",
+      "command": ["python", "-m", "src.main"],
+      "environment": {
+        "PYTHONPATH": "D:/mcp-servers/harmony_tasklist_manager"
+      }
+    }
+  }
+}
+```
+
+> **重要**: OpenCode 配置格式特殊：
+> - 需要 `type: "local"`
+> - `command` 是数组
+> - 用 `environment` 代替 `env`
+> - 不支持 `cwd`
+
+### 10.3 Claude Desktop 接入
+
+编辑 Claude Desktop 配置文件：
+
+**macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+**Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
 
 ```json
 {
@@ -410,13 +461,23 @@ async with stdio_client(server_params) as (read, write):
     "harmony-tasklist": {
       "command": "python",
       "args": ["-m", "src.main"],
-      "cwd": "{PROJECT_PATH}/harmony-tasklist-manager"
+      "cwd": "/path/to/harmony_tasklist_manager"
     }
   }
 }
 ```
 
-> 请将 `{PROJECT_PATH}` 替换为你的实际项目路径。
+### 10.4 验证接入
+
+```bash
+# Claude Code
+claude mcp list
+
+# OpenCode
+opencode mcp list
+```
+
+## 11. 使用示例
 
 ## 11. 数据类型
 

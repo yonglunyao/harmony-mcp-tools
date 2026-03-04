@@ -15,7 +15,7 @@
 
 ## 系统要求
 
-- **Python 3.11+** (推荐 3.11 或更高版本以避免依赖兼容性问题)
+- **Python 3.8+** (推荐 3.11 或更高版本)
 - pip
 
 ## 安装
@@ -130,9 +130,64 @@ filter_tasks(filters={"auto_detection_result": "BLACK"})
 get_field_metadata()
 ```
 
-## Claude Desktop 配置
+## 接入指南
 
-在 Claude Desktop 配置文件中添加：
+### Claude Code 接入
+
+编辑 `~/.claude.json`（用户目录下的 Claude Code 配置文件）：
+
+```json
+{
+  "mcpServers": {
+    "harmony-tasklist-manager": {
+      "command": "python",
+      "args": ["-m", "src.main"],
+      "cwd": "D:/mcp-servers/harmony_tasklist_manager",
+      "env": {
+        "PYTHONPATH": "D:/mcp-servers/harmony_tasklist_manager"
+      }
+    }
+  }
+}
+```
+
+> **注意**: 请将 `D:/mcp-servers/harmony_tasklist_manager` 替换为你的实际项目路径。
+
+### OpenCode 接入
+
+编辑 `~/.config/opencode/opencode.json`：
+
+```json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "harmony-tasklist-manager": {
+      "type": "local",
+      "command": [
+        "python",
+        "-m",
+        "src.main"
+      ],
+      "environment": {
+        "PYTHONPATH": "D:/mcp-servers/harmony_tasklist_manager"
+      }
+    }
+  }
+}
+```
+
+> **重要**: OpenCode 配置格式与 Claude Code 不同：
+> - 需要 `type: "local"`
+> - `command` 是数组（第一个元素是命令）
+> - 用 `environment` 代替 `env`
+> - 不支持 `cwd`（必须用 `PYTHONPATH`）
+
+### Claude Desktop 接入
+
+编辑 Claude Desktop 配置文件（位置取决于操作系统）：
+
+**macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+**Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
 
 ```json
 {
@@ -140,29 +195,35 @@ get_field_metadata()
     "harmony-tasklist": {
       "command": "python",
       "args": ["-m", "src.main"],
-      "cwd": "{PROJECT_PATH}/harmony-tasklist-manager"
+      "cwd": "/path/to/harmony-tasklist-manager"
     }
   }
 }
 ```
 
-> 请将 `{PROJECT_PATH}` 替换为你的实际项目路径。
+### 验证接入
+
+**Claude Code / OpenCode**:
+
+```bash
+# 查看 MCP 服务器状态
+claude mcp list       # Claude Code
+opencode mcp list     # OpenCode
+```
+
+**Claude Desktop**: 重启后查看 MCP 服务器连接状态。
 
 ## 项目结构
 
 ```
-harmony-tasklist-manager/
+harmony_tasklist_manager/
 ├── src/
 │   ├── __init__.py
 │   ├── main.py                 # MCP 服务器入口
 │   ├── config.py               # 配置管理
 │   ├── models.py               # 数据模型
 │   ├── parsers.py              # 数据解析器
-│   ├── search.py               # 搜索功能
-│   └── tools/
-│       ├── __init__.py
-│       ├── query_tools.py      # 查询类工具
-│       └── config_tools.py     # 配置类工具
+│   └── search.py               # 搜索功能
 ├── data/
 │   ├── title.txt               # 字段定义 (3行)
 │   └── tasklist.txt            # 任务数据
@@ -175,6 +236,7 @@ harmony-tasklist-manager/
 ├── requirements.txt
 ├── README.md
 ├── .env.example
+├── .gitignore
 └── test_core.py                # 核心功能测试
 ```
 
@@ -188,3 +250,7 @@ harmony-tasklist-manager/
 ## 文档
 
 详细设计文档请查看 [docs/design.md](docs/design.md)
+
+## 许可证
+
+MIT License
